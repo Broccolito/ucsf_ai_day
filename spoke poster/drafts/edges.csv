@@ -1,0 +1,91 @@
+from,to,interaction
+Environment,Location,interacts with
+Cytoband,Gene,interacts with
+Chromosome,Cytoband,interacts with
+Variant,Haplotype,interacts with
+Variant,Gene,interacts with
+Variant,Gene,interacts with
+Variant,Disease,interacts with
+Variant,Gene,interacts with
+CellLine,Variant,interacts with
+CellLine,Disease,interacts with
+DietarySupplement,Compound,interacts with
+DietarySupplement,Blend,interacts with
+Blend,Compound,interacts with
+Blend,Food,interacts with
+SDOH,Disease,interacts with
+Disease,Symptom,PRESENTS_DpS
+Disease,Gene,ASSOCIATES_DaG
+Disease,Location,PREVALENCE_DpL
+Disease,Disease,ISA_DiD
+Disease,Anatomy,LOCALIZES_DlA
+Disease,Disease,RESEMBLES_DrD
+Pathway,Pathway,ISA_PWiPW
+PharmacologicClass,Compound,INCLUDES_PCiC
+ClinicalLab,MolecularFunction,MEASURES_CLmMF
+ClinicalLab,Compound,MEASURES_CLmC
+ClinicalLab,CellularComponent,MEASURES_CLmCC
+ClinicalLab,Anatomy,MEASURES_CLmA
+ClinicalLab,ClinicalLab,ISA_CLiCL
+ClinicalLab,BiologicalProcess,MEASURES_CLmBP
+ClinicalLab,Protein,MEASURES_CLmP
+ClinicalLab,Organism,MEASURES_CLmO
+Gene,Gene,UPREGULATES_GPuG
+Gene,Symptom,ASSOCIATES_GaS
+Gene,MolecularFunction,PARTICIPATES_GpMF
+Gene,CellType,EXPRESSEDIN_GeiCT
+Gene,PwGroup,PARTOF_GpPG
+Gene,Reaction,PARTICIPATES_GpR
+Gene,Gene,DOWNREGULATES_GPdG
+Gene,BiologicalProcess,PARTICIPATES_GpBP
+Gene,CellularComponent,PARTICIPATES_GpCC
+Gene,Gene,DOWNREGULATES_KGdG
+Gene,Gene,DOWNREGULATES_OGdG
+Gene,Protein,ENCODES_GeP
+Gene,Disease,MARKER_NEG_GmnD
+Gene,Gene,UPREGULATES_KGuG
+Gene,Gene,UPREGULATES_OGuG
+Gene,Pathway,PARTICIPATES_GpPW
+ProteinDomain,Protein,PARTOF_PDpP
+ProteinDomain,ProteinDomain,INTERACTS_PDiPD
+ProteinDomain,ProteinFamily,MEMBEROF_PDmPF
+EnzymaticActivity,EnzymaticActivity,ISA_ECiEC
+EnzymaticActivity,Reaction,CATALYZES_ECcR
+Food,Food,ISA_FiF
+Organism,Compound,interacts with
+Organism,Location,interacts with
+Organism,Organism,ISA_OiO
+Organism,Disease,CAUSES_OcD
+Organism,Protein,ENCODES_OeP
+MiRNA,Gene,TARGETS_MtG
+Compound,SideEffect,CAUSES_CcSE
+Compound,Disease,TREATS_CtD
+Compound,Gene,AFFECTS_CamG
+Compound,Compound,ISA_CiC
+Compound,PwGroup,PARTOF_CpPG
+Compound,Reaction,PARTICIPATES_CpR
+Compound,ProteinDomain,BINDS_CbPD
+Compound,Food,INTERACTS_CiF
+Compound,Protein,BINDS_CbP
+Compound,Compound,HASROLE_ChC
+Compound,Compound,PARTOF_CpC
+Anatomy,Anatomy,ISA_AiA
+Anatomy,Gene,EXPRESSES_AeG
+Anatomy,Anatomy,PARTOF_ApA
+Reaction,Pathway,PARTOF_RpPW
+Reaction,Compound,CONSUMES_RcC
+Protein,EnzymaticActivity,HAS_PhEC
+Protein,Reaction,PARTICIPATES_PpR
+Protein,Protein,INTERACTS_PiP
+Protein,Compound,TRANSPORTS_PtC
+Protein,Disease,INCREASEDIN_PiD
+Protein,Protein,CLEAVESTO_PctP
+Protein,PwGroup,PARTOF_PpPG
+Protein,Complex,PARTOF_PpCP
+Protein,CellType,EXPRESSEDIN_PeCT
+CellType,CellType,ISA_CTiCT
+CellType,Anatomy,PARTOF_CTpA
+PwGroup,PwGroup,PARTOF_PGpPG
+PwGroup,Reaction,PARTICIPATES_PGpR
+SDOH,Location,interacts with
+Location,Location,PARTOF_LpL
